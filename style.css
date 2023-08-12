@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.nav-superior {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    background-color: cadetblue;
+}
+
+.botao {
+    background-color: #4CAF50;
+    width: 25%;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.principal {
+    height: 100%;
+}
+
+.secaoA {
+    height: 50%;
+    display: flex;
+    border-radius: 70px;
+    background: #73AD21;
+
+
+
+}
+
+.secaoB {
+    height: 50%;
+
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.quadradinho {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+
+.a {
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid black;
+    height: 50;
+    vertical-align: center;
+}
