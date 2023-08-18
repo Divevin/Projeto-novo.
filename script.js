@@ -1,4 +1,4 @@
-//variavel
+/*variavel
 const nome = "Vinicius" //Constantes
 
 let sobrenome //Mais moderno - exige ser criada antes de usar
@@ -11,7 +11,7 @@ var idade // Não exige ser criada antes de usar (nao da erro)
 if(CONDICAO){
 
 }
-*/
+
 
 let numero = 100
 if(numero > 50){
@@ -64,13 +64,33 @@ while(numero >10){
 do {
     
 } while (numero>10);
+*/
+
 
 //--------------------------------------
 //FUNCAO
 
 //function nome(parametros){codigos}
-function salvar(nome, idade){
-    console.log(`Nome: ${nome} - Idade ${Idade}`) //Isso e uma função void, sem retorno
-} //FIM DA FUNÇÃO
+let x = 10
+let y = 10
+/*
+function soma(){
+    if(x<10){
+    return (x+y)
+    }else{
+        console.log(x+x)
+    }
+}
 
-salvar("Ronan", 30)
+let resultado = soma()
+console.log(resultado)
+*/
+
+//FUNÇÃO ANONIMA-----------------------
+
+//ESTRUTURA
+//variavel = Parametros => Codigos
+
+let continha = (valor1, valor2) => {return valor1+valor2}
+
+console.log(continha(4, 10))
